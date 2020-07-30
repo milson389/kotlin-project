@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/controlFlow/BreakContinue.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fP1f09IGjvMdZz7sPzfZTdgn46" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager" selected="Kotlin.BreakContinueKt">
+    <configuration name="BreakContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.BreakContinueKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionStatementsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.ExpressionStatementsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.ForLoopKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RangeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.RangeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileDoWhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.WhileDoWhileKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.BreakContinueKt" />
+        <item itemvalue="Kotlin.ForLoopKt" />
+        <item itemvalue="Kotlin.RangeKt" />
+        <item itemvalue="Kotlin.WhileDoWhileKt" />
+        <item itemvalue="Kotlin.ExpressionStatementsKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="" />
+      <created>1596105012673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596105012673</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Kotlin Fundamental Project Initial">
+      <created>1596108501936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596108501936</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Kotlin Data Types">
+      <created>1596108529151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596108529151</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Kotlin String literals and trimIndent() function">
+      <created>1596109101502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596109101502</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Kotlin Arrays">
+      <created>1596109550032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596109550032</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Kotlin Functions">
+      <created>1596111482351</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596111482351</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Kotlin if expressions">
+      <created>1596111717052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596111717052</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Kotlin Numbers">
+      <created>1596112390558</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596112390558</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Kotlin Null Pointer Exceptions (NPE)">
+      <created>1596113416028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596113416028</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Kotlin Null Pointer Exceptions (NPE)">
+      <created>1596114030995</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596114030995</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Kotlin Safe Calls and Elvis Operator">
+      <created>1596114347894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596114347894</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Kotlin Enumeration">
+      <created>1596116088929</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596116088929</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Kotlin When Expressions">
+      <created>1596120299108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596120299108</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Kotlin Expression and Statements">
+      <created>1596120443526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596120443526</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Kotlin While and Do While Loops">
+      <created>1596120759993</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596120759993</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Kotlin Ranges">
+      <created>1596121453821</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596121453821</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Kotlin For Loops">
+      <created>1596121892802</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596121892802</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Kotlin Fundamental Project Initial" />
+    <MESSAGE value="Kotlin Data Types" />
+    <MESSAGE value="Kotlin String literals and trimIndent() function" />
+    <MESSAGE value="Kotlin Arrays" />
+    <MESSAGE value="Kotlin Functions" />
+    <MESSAGE value="Kotlin if expressions" />
+    <MESSAGE value="Kotlin Numbers" />
+    <MESSAGE value="Kotlin Null Pointer Exceptions (NPE)" />
+    <MESSAGE value="Kotlin Safe Calls and Elvis Operator" />
+    <MESSAGE value="Kotlin Enumeration" />
+    <MESSAGE value="Kotlin When Expressions" />
+    <MESSAGE value="Kotlin Expression and Statements" />
+    <MESSAGE value="Kotlin While and Do While Loops" />
+    <MESSAGE value="Kotlin Ranges" />
+    <MESSAGE value="Kotlin For Loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin For Loops" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1596114896141" />
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596121892274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596121892274" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596122069022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596122069022" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596122069021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596122069021" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596122069021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596122069021" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596122069022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596122069022" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596120459092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596120459092" />
+  </component>
+</project>
