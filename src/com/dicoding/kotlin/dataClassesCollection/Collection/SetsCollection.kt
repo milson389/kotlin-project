@@ -28,7 +28,9 @@ fun main(){
 
     // fungsi add dan remove pada sets, tidak seperti list, elemen dalam set tidak dapat diubah valuenya
     val setD = mutableSetOf(1, 2, 4, 2, 1, 5)
+    println(setD)
     setD.add(6) // menambahkan item di akhir set
+    println(setD)
     setD.remove(1) // menghapus elemen yang bernilai 1
     println(setD)
 
