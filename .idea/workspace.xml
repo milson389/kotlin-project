@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/functionalProgramming/HigherOrder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/functionalProgramming/LambdaReceiver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" afterDir="false" />
     </list>
@@ -46,7 +46,7 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.HigherOrderKt">
+  <component name="RunManager" selected="Kotlin.LambdaReceiverKt">
     <configuration name="ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
@@ -86,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaReceiverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.functionalProgramming.LambdaReceiverKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NullAbleReceiverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
@@ -99,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarargKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamental" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.functionalProgramming.VarargKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LambdaReceiverKt" />
         <item itemvalue="Kotlin.HigherOrderKt" />
         <item itemvalue="Kotlin.LambdaExpressionKt" />
         <item itemvalue="Kotlin.NullAbleReceiverKt" />
         <item itemvalue="Kotlin.ExtensionsKt" />
-        <item itemvalue="Kotlin.VarargKt" />
       </list>
     </recent_temporary>
   </component>
@@ -365,12 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596462145030</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Kotlin Higher Order Functions">
+      <created>1596464453179</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1596464453179</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kotlin Numbers" />
     <MESSAGE value="Kotlin Null Pointer Exceptions (NPE)" />
     <MESSAGE value="Kotlin Safe Calls and Elvis Operator" />
     <MESSAGE value="Kotlin Enumeration" />
@@ -395,37 +401,38 @@
     <MESSAGE value="Kotlin Function Extensions" />
     <MESSAGE value="Kotlin Function with Nullable Receiver" />
     <MESSAGE value="Kotlin Lambda Expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Lambda Expression" />
+    <MESSAGE value="Kotlin Higher Order Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Higher Order Functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1596114896141" />
-    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596462144508">
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596464452650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596462144508" />
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596464452650" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596461086028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596461086028" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1596464307345">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1596464646479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596464307345" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1596464307345">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596464646479" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1596464646479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596464307345" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1596464307344">
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596464646479" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1596464646479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596464307344" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1596464307345">
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596464646479" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1596464646479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596464307345" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596464646479" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596122358621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
