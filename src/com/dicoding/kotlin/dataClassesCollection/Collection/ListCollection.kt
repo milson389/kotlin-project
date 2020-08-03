@@ -1,6 +1,6 @@
 package com.dicoding.kotlin.dataClassesCollection.Collection
 
-import com.dicoding.kotlin.dataClassesCollection.EndUser
+data class EndUser(val name: String?= "John Doe", val age: Int?= 18)
 
 fun main(){
     /*
