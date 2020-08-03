@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/dataClassesCollection/Collection/Sequences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/functionalProgramming/Functions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +41,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Memulai Pemrograman dengan Kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.SequencesKt">
-    <configuration name="ListCollectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.FunctionsKt">
+    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.dataClassesCollection.Collection.ListCollectionKt" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.functionalProgramming.FunctionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.SequencesKt" />
         <item itemvalue="Kotlin.OperationsKt" />
         <item itemvalue="Kotlin.SetsCollectionKt" />
         <item itemvalue="Kotlin.MapsCollectionKt" />
-        <item itemvalue="Kotlin.ListCollectionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -323,12 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596453726172</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Kotlin Sequences">
+      <created>1596454997850</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1596454997850</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kotlin Fundamental Project Initial" />
     <MESSAGE value="Kotlin Data Types" />
     <MESSAGE value="Kotlin String literals and trimIndent() function" />
     <MESSAGE value="Kotlin Arrays" />
@@ -353,37 +358,38 @@
     <MESSAGE value="Kotlin Maps Collection" />
     <MESSAGE value="Kotlin Sets Collection" />
     <MESSAGE value="Kotlin Collection Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Collection Operations" />
+    <MESSAGE value="Kotlin Sequences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Sequences" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1596114896141" />
-    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596453724362">
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596454997318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596453724362" />
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596454997318" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596450930702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596450930702" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1596454655261">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1596455959044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596454655261" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1596454655261">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596455959044" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1596455959044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596454655261" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1596454655261">
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596455959044" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1596455959044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596454655261" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1596454655261">
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596455959044" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1596455959044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596454655261" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596455959044" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596122358621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
