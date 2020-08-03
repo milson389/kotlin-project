@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/controlFlow/BreakContinue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/dataClassesCollection/Usage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +42,9 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.BreakContinueKt">
+  <component name="RunManager" selected="Kotlin.UsageKt">
     <configuration name="BreakContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
@@ -51,19 +53,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.BreakContinueKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionStatementsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamental" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.ExpressionStatementsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsageKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.dataClassesCollection.UsageKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WhileDoWhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.UsageKt" />
         <item itemvalue="Kotlin.BreakContinueKt" />
         <item itemvalue="Kotlin.ForLoopKt" />
         <item itemvalue="Kotlin.RangeKt" />
         <item itemvalue="Kotlin.WhileDoWhileKt" />
-        <item itemvalue="Kotlin.ExpressionStatementsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596121892802</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Kotlin Break, Continue, and Label">
+      <created>1596122343977</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596122343977</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,36 +271,37 @@
     <MESSAGE value="Kotlin While and Do While Loops" />
     <MESSAGE value="Kotlin Ranges" />
     <MESSAGE value="Kotlin For Loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin For Loops" />
+    <MESSAGE value="Kotlin Break, Continue, and Label" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Break, Continue, and Label" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1596114896141" />
-    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596121892274">
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596122343479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596121892274" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596122069022">
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596122343479" />
+    <state width="724" height="212" key="GridCell.Tab.0.bottom" timestamp="1596445144329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596122069022" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596122069021">
+    <state width="724" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596445144329" />
+    <state width="724" height="212" key="GridCell.Tab.0.center" timestamp="1596445144327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596122069021" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596122069021">
+    <state width="724" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596445144327" />
+    <state width="724" height="212" key="GridCell.Tab.0.left" timestamp="1596445144327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596122069021" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596122069022">
+    <state width="724" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596445144327" />
+    <state width="724" height="212" key="GridCell.Tab.0.right" timestamp="1596445144328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596122069022" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596120459092">
+    <state width="724" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596445144328" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596122358621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596120459092" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596122358621" />
   </component>
 </project>
