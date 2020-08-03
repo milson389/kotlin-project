@@ -17,6 +17,8 @@ fun main(){
 
     println(::pesan2.name)
     println(::pesan2.get())
+    ::pesan2.set("Kotlin Academy")
+    println(::pesan2.get())
 
 
 }
