@@ -24,5 +24,7 @@ fun main(){
     muList[3] = false // mengubah nilai item pada index ke 3
     muList.removeAt(1) // menghapus elemen pada index 1
 
-
+    for ( any in muList){
+        println("$any")
+    }
 }
