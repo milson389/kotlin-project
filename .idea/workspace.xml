@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/dataClassesCollection/Destructuring.kt" afterDir="false" />
+    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Destructuring Declarations">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/dataClassesCollection/Collection/ListCollection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/dataClassesCollection/Collections.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" afterDir="false" />
     </list>
@@ -42,18 +43,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Memulai Pemrograman dengan Kotlin" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.DestructuringKt">
-    <configuration name="BreakContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ListCollectionKt">
+    <configuration name="CollectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.BreakContinueKt" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.dataClassesCollection.CollectionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,14 +87,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ListCollectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.controlFlow.ForLoopKt" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.dataClassesCollection.Collection.ListCollectionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ListCollectionKt" />
+        <item itemvalue="Kotlin.CollectionsKt" />
         <item itemvalue="Kotlin.DestructuringKt" />
         <item itemvalue="Kotlin.DuplicateModifyKt" />
         <item itemvalue="Kotlin.UsageKt" />
-        <item itemvalue="Kotlin.BreakContinueKt" />
-        <item itemvalue="Kotlin.ForLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596445744500</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Kotlin Destructuring Declarations">
+      <created>1596446132092</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1596446132092</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,33 +298,38 @@
     <MESSAGE value="Kotlin Break, Continue, and Label" />
     <MESSAGE value="Kotlin Data class usage" />
     <MESSAGE value="Kotlin duplicate and modify Data class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin duplicate and modify Data class" />
+    <MESSAGE value="Kotlin Destructuring Declarations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Destructuring Declarations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1596114896141" />
-    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596445742664">
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1596451223742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596445742664" />
-    <state width="724" height="212" key="GridCell.Tab.0.bottom" timestamp="1596446002848">
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596451223742" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596450930702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596446002848" />
-    <state width="724" height="212" key="GridCell.Tab.0.center" timestamp="1596446002847">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596450930702" />
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1596451189179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596446002847" />
-    <state width="724" height="212" key="GridCell.Tab.0.left" timestamp="1596446002847">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596451189179" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1596451189179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596446002847" />
-    <state width="724" height="212" key="GridCell.Tab.0.right" timestamp="1596446002848">
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596451189179" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1596451189179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596446002848" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596451189179" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1596451189179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596451189179" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596122358621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
