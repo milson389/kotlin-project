@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Classes">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/oop/Property.kt" afterDir="false" />
+    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Class Property Getter and Setter">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/oop/Constructor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -488,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596983729759</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Kotlin Class Property Getter and Setter">
+      <created>1596984150697</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1596984150697</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kotlin List Collections" />
     <MESSAGE value="Kotlin List Collection" />
     <MESSAGE value="Kotlin Maps Collection" />
     <MESSAGE value="Kotlin Sets Collection" />
@@ -530,7 +535,8 @@
     <MESSAGE value="Kotlin Advance Collection Chunked functions" />
     <MESSAGE value="Kotlin Recursion" />
     <MESSAGE value="Kotlin Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Classes" />
+    <MESSAGE value="Kotlin Class Property Getter and Setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Class Property Getter and Setter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
