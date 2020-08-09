@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Advance Collection Distinct functions">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/functionalProgramming/advCollection/Chunked.kt" afterDir="false" />
+    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Advance Collection Chunked functions">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/functionalProgramming/Recursion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.ChunkedKt">
+  <component name="RunManager" selected="Kotlin.RecursionKt">
     <configuration name="ChunkedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
@@ -89,14 +91,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.functionalProgramming.advCollection.DropKt" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.functionalProgramming.RecursionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RecursionKt" />
         <item itemvalue="Kotlin.ChunkedKt" />
         <item itemvalue="Kotlin.DistinctKt" />
         <item itemvalue="Kotlin.SliceKt" />
         <item itemvalue="Kotlin.TakeKt" />
-        <item itemvalue="Kotlin.DropKt" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596981113213</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Kotlin Advance Collection Chunked functions">
+      <created>1596981299044</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1596981299044</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kotlin duplicate and modify Data class" />
     <MESSAGE value="Kotlin Destructuring Declarations" />
     <MESSAGE value="Kotlin Collections ( List, Sets, Map )" />
     <MESSAGE value="Kotlin List Collections" />
@@ -507,7 +515,8 @@
     <MESSAGE value="Kotlin Advance Collection take and takeLast functions" />
     <MESSAGE value="Kotlin Advance Collection slice functions" />
     <MESSAGE value="Kotlin Advance Collection Distinct functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Advance Collection Distinct functions" />
+    <MESSAGE value="Kotlin Advance Collection Chunked functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Advance Collection Chunked functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596114896141">
@@ -522,22 +531,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596802850973" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596981016281">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596981622994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596981016281" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596981016280">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596981622994" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596981622993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596981016280" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596981016280">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596981622993" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596981622993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596981016280" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596981016281">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596981622993" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596981622993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596981016281" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596981622993" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596464711076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
