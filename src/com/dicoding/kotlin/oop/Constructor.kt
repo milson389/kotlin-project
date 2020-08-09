@@ -1,15 +1,29 @@
 package com.dicoding.kotlin.oop
 
-class Hewan1(pName: String, pWeight: Double, pAge: Int, pIsMammal: Boolean){
-    val nama1: String
-    val berat1: Double
-    val umur1: Int
-    val mamalia1: Boolean
+class Animal1(name: String, weight: Double, age: Int) {
+    val name: String
+    val weight: Double
+    val age: Int
+    var isMammal: Boolean
 
-    init{
-        this.nama1 = pName
-        this.berat1 = if (pWeight < 0) 0.1 else pWeight
-        this.umur1 = if (pAge < 0) 0 else pAge
-        this.mamalia1 = pIsMammal
+    // primary constructor
+    init {
+        this.weight = if(weight < 0) 0.1 else weight
+        this.age = if(age < 0) 0  else age
+        this.name = name
+        this.isMammal = false
     }
+
+    // secondary constructor
+    constructor(name: String, weight: Double, age: Int, isMammal: Boolean) : this(name, weight, age) {
+        this.isMammal = isMammal
+    }
+}
+
+fun main(){
+    val dicodingCat = Animal1("Dicoding Miaw", 2.5, 2, true)
+    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
+
+    val dicodingBird = Animal1("Dicoding tweet", 0.5, 1)
+    println("Nama: ${dicodingBird.name}, Berat: ${dicodingBird.weight}, Umur: ${dicodingBird.age}, mamalia: ${dicodingBird.isMammal}")
 }
