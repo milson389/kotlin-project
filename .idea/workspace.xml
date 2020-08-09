@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Extensions">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/oop/Interfaces.kt" afterDir="false" />
+    <list default="true" id="86a8561c-bb60-454c-8c88-9844dcae203e" name="Default Changelist" comment="Kotlin Interfaces">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/kotlin/oop/Delegation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamental/META-INF/KotlinFundamental.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,20 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.InterfacesKt">
+  <component name="RunManager" selected="Kotlin.DelegationKt">
+    <configuration name="DelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.oop.DelegationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamental" />
       <option name="VM_PARAMETERS" />
@@ -85,19 +99,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.oop.exception.HandlingKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImportingPackagesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamental" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.kotlin.oop.import.ImportingPackagesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DelegationKt" />
         <item itemvalue="Kotlin.InterfacesKt" />
         <item itemvalue="Kotlin.ExtensionsKt" />
         <item itemvalue="Kotlin.OverloadingKt" />
         <item itemvalue="Kotlin.HandlingKt" />
-        <item itemvalue="Kotlin.ImportingPackagesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596105012673</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Kotlin Null Pointer Exceptions (NPE)">
-      <created>1596113416028</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1596113416028</updated>
     </task>
     <task id="LOCAL-00009" summary="Kotlin Null Pointer Exceptions (NPE)">
       <created>1596114030995</created>
@@ -494,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596987809301</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Kotlin Interfaces">
+      <created>1596988051089</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1596988051089</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kotlin Function Extensions" />
     <MESSAGE value="Kotlin Function with Nullable Receiver" />
     <MESSAGE value="Kotlin Lambda Expression" />
     <MESSAGE value="Kotlin Higher Order Functions" />
@@ -536,7 +536,8 @@
     <MESSAGE value="Kotlin Error Exception handling with try, catch, finally" />
     <MESSAGE value="Kotlin Overloading" />
     <MESSAGE value="Kotlin Extensions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Extensions" />
+    <MESSAGE value="Kotlin Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Interfaces" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1596987901829">
@@ -555,22 +556,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596802850973" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596987713092">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596988330252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596987713092" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596987713092">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596988330252" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596988330251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596987713092" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596987713092">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596988330251" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596988330251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596987713092" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596987713092">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596988330251" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596988330252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596987713092" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596988330252" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596983036769">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
